@@ -1,0 +1,20 @@
+{
+  "name": "stringmask",
+  "version": "1.0.0",
+  "description": "mask strings in javascript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaykon-w/stringmask"
+  },
+  "author": "Jaykon Willian de Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
