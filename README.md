@@ -69,9 +69,9 @@ const MaskedInput = (props) => {
 
 <MaskedInput
   name="phone"
-  value={testValue}
+  value={value}
   cleaner={/\D/g}
   mask="(00) 0000-00000"
-  onChange={({target: {value}}) => setTestValue(value)}
+  onChange={({target: {value}}) => setValue(value)}
 />
 ```
